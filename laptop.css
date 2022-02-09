@@ -1,0 +1,18 @@
+.bg-top {
+    margin-left: 970px;
+}
+
+.bg-bottom {
+    display: block;
+    position: absolute;
+    top: 500px;
+    width: 400px;
+    height: 400px;
+}
+
+.pricing 
+{
+  top: 90px;
+  left: 550px;
+}
+
