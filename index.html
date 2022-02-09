@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" media="screen and (min-width: 375px)">
+  <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 768px)">
+  <link rel="stylesheet" href="laptop.css" media="screen and (min-width: 1024px)">
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1440px)">
+  <title>Pricing component with toggle</title>
+
+</head>
+<body>
+  <main class="main">
+
+    <figure class="bg-bottom">
+      <img class="bg-bottom-img" src="./images/bg-bottom.svg" alt="background-bottom">
+    </figure>
+    <figure class="bg-top">
+      <img class="bg-top-img" src="./images/bg-top.svg" alt="background-top">
+    </figure>
+
+
+    <section class="pricing">
+      <h2 class="pricing-title">Our Pricing</h2>
+      <div class="pricing-plan">
+        <p>Annually</p>
+        <label class="switch" id="switch">
+          <input type="checkbox" onclick="myFunction()">
+          <span class="slider round"></span>
+        </label>
+        <p>Monthly</p>
+      </div>
+    </section>  
+
+
+    <section class="container" id="container">
+      <div class="container-plan" id="container-plan">
+        <h3 class="line-title">Basic</h3>
+        <h3 class="line-title1" id="price1"><span>&dollar;199.99</span></h3>
+        <h3 class="line-title2"><span>500 GB Storage</span></h3>
+        <h3 class="line-title2"><span>2 Users Allowed</span></h3>
+        <h3 class="line-title2"><span>Send up to 3 GB</span></h3> 
+        <button href="/" class="btn-a">LEARN MORE</button>
+      </div>
+
+
+      <div class="container-plan" id="container-plan">
+        <h3 class="line-title">Professional</h3>
+        <h3 class="line-title1" id="price2"><span>&dollar;249.99</span></h3>
+        <h3 class="line-title2"><span>1 TB Storage</span></h3>
+        <h3 class="line-title2"><span>5 Users Allowed</span></h3>
+        <h3 class="line-title2"><span>Send up to 10 GB</span></h3>
+        <button href="/" class="btn-a">LEARN MORE</button>
+      </div>  
+
+      <div class="container-plan" id="container-plan">
+        <h3 class="line-title">Master</h3>
+        <h3 class="line-title1" id="price3"><span>&dollar;399.99</span></h3>
+        <h3 class="line-title2"><span>2 TB Storage</span></h3>
+        <h3 class="line-title2"><span>10 Users Allowed</span></h3>
+        <h3 class="line-title2"><span>Send up to 20 GB</span></h3>
+        <button href="/" class="btn-a">LEARN MORE</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/gabrielnavarros/">GabrielNavarro</a>.
+  </footer>
+
+  <script src="./switch.js">
+  </script>
+</body>
+</html>
