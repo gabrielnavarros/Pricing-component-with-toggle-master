@@ -1,0 +1,50 @@
+.bg-top {
+    margin-left: 480px;
+}
+
+.bg-bottom {
+    display: block;
+    position: absolute;
+    top: 500px;
+    width: 400px;
+    height: 400px;
+}
+
+.pricing 
+{
+  top: 90px;
+  left: 250px;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-plan {
+    transition: 350ms;
+    transform-origin: center; 
+    position: relative;
+    margin-right: 5px;
+}
+.line-title1 {
+    transition: 350ms;
+}
+.container-plan:hover {
+    background: var(--LinearGradient);
+    color: var(--VeryLightGrayishBlue);
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.container-plan:hover .btn-a {
+    color: hsl(237, 63%, 64%);
+    background: var(--VeryLightGrayishBlue);
+  }
+
+  footer { 
+    top: 200px;
+  }

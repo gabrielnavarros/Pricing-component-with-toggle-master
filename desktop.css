@@ -1,0 +1,37 @@
+.bg-top {
+    margin-left: 1100px;
+    height: 600px;
+}
+
+.bg-bottom {
+    display: block;
+    position: absolute;
+    top: 600px;
+    width: 400px;
+    height: 400px;
+}
+.pricing {
+  top: 80px;
+  left: 600px;
+}
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-plan:hover {
+    background: var(--LinearGradient);
+    color: var(--VeryLightGrayishBlue);
+  }
+  
+  .container-plan:hover .btn-a {
+    color: hsl(237, 63%, 64%);
+    background: var(--VeryLightGrayishBlue);
+  }
+
+  footer { 
+    top: 300px;
+  }
